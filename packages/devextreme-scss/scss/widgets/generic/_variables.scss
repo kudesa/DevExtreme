@@ -1,1 +1,325 @@
 // set the variables for generic theme
+
+$h1-giga: 41px;
+$h1-mega: 36px;
+$h1-huge: 32px;
+$h1-large: 29px;
+$h1: 26px;
+$h2: 23px;
+$h3: 20px;
+$h4: 18px;
+$h5: 16px;
+
+$h1--mobile: 20px;
+$h2--mobile: 18px;
+$h3--mobile: 16px;
+
+$text-mega: 23px;
+$text-huge: 20px;
+$text-large: 18px;
+$text-base: 16px;
+$text-medium: 15px;
+$text-small: 14px;
+$text-tiny: 13px;
+
+$fontFamily: "Suisse Intl", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+
+$white: rgba(255, 255, 255, 1);
+$title: rgba(21, 34, 57, 1);
+$textbody: rgba(21, 34, 57, 1);
+$textmeta: rgba(64, 74, 93, 1);
+$textsecondary: rgba(111, 119, 133, 1);
+$textlabel: rgba(148, 148, 148, 1);
+$bgaccent: rgba(24, 83, 141, 1);
+$bgaccent-20: rgba(24, 83, 141, 0.2);
+$bgaccent-12: rgba(24, 83, 141, 0.12);
+$bgaccent-08: rgba(24, 83, 141, 0.08);
+$bgaccent-04: rgba(24, 83, 141, 0.04);
+$bgcolor: rgba(239, 239, 241, 1);
+$bgsidebar: rgba(229, 230, 234, 1);
+$red-100: rgba(255, 207, 207, 1);
+$red-200: rgba(230, 70, 70, 1);
+$khaki-100: rgba(255, 184, 0, 1);
+$teal-100: rgba(22, 189, 89, 1);
+$orange-100: rgba(243, 139, 43, 1);
+$blueviolet-20: rgba(242, 242, 243, 1);
+$blueviolet-100: rgba(198, 202, 209, 1);
+$blueviolet-200: rgba(161, 166, 175, 1);
+$blueviolet-300: rgba(156, 162, 173, 1);
+$blueviolet-400: rgba(138, 144, 155, 1);
+$blueviolet-500: rgba(137, 144, 156, 1);
+$blueviolet-600: rgba(134, 141, 153, 1);
+$blueviolet-700: rgba(125, 132, 145, 1);
+$blueviolet-800: rgba(115, 122, 136, 1);
+$blueviolet-900: rgba(113, 121, 135, 1);
+$blueviolet-1000: rgba(111, 119, 133, 1);
+$blueviolet-1100: rgba(70, 115, 230, 1);
+$blueviolet-1200: rgba(104, 112, 126, 1);
+$blueviolet-1300: rgba(91, 100, 116, 1);
+$blueviolet-1400: rgba(90, 99, 115, 1);
+$blueviolet-1500: rgba(88, 97, 114, 1);
+$blueviolet-1600: rgba(83, 92, 109, 1);
+$blueviolet-1700: rgba(69, 79, 98, 1);
+$blueviolet-1800: rgba(68, 78, 96, 1);
+$blueviolet-1900: rgba(68, 77, 96, 1);
+$blueviolet-2000: rgba(56, 76, 115, 1);
+$blueviolet-2100: rgba(56, 76, 114, 1);
+$blueviolet-2200: rgba(55, 74, 113, 1);
+$blueviolet-2500: rgba(51, 70, 106, 1);
+$blueviolet-2400: rgba(53, 72, 110, 1);
+$blueviolet-2600: rgba(48, 66, 101, 1);
+$blueviolet-2700: rgba(0, 45, 175, 1);
+$blueviolet-2800: rgba(52, 62, 82, 1);
+$blueviolet-2900: rgba(51, 62, 82, 1);
+$blueviolet-3000: rgba(44, 62, 95, 1);
+$blueviolet-3100: rgba(49, 59, 79, 1);
+$blueviolet-3200: rgba(41, 57, 89, 1);
+$blueviolet-3300: rgba(44, 55, 76, 1);
+$blueviolet-3400: rgba(36, 52, 82, 1);
+$blueviolet-3500: rgba(38, 49, 71, 1);
+$blueviolet-3600: rgba(38, 49, 70, 1);
+$blueviolet-3700: rgba(36, 48, 69, 1);
+$blueviolet-3800: rgba(33, 47, 76, 1);
+$blueviolet-3900: rgba(29, 43, 70, 1);
+$blueviolet-4000: rgba(28, 40, 62, 1);
+$blueviolet-4100: rgba(28, 39, 62, 1);
+$blueviolet-4200: rgba(26, 39, 65, 1);
+$blueviolet-4300: rgba(24, 37, 61, 1);
+$blueviolet-4400: rgba(23, 35, 58, 1);
+$blueviolet-4500: rgba(23, 35, 57, 1);
+$blueviolet-4600: rgba(22, 35, 58, 1);
+$blueviolet-4700: rgba(21, 33, 57, 1);
+$blueviolet-4800: rgba(21, 33, 56, 1);
+$blue-100: rgba(193, 198, 205, 1);
+$blue-200: rgba(181, 186, 194, 1);
+$blue-300: rgba(180, 185, 192, 1);
+$blue-400: rgba(176, 182, 190, 1);
+$blue-500: rgba(165, 170, 178, 1);
+$blue-600: rgba(160, 166, 176, 1);
+$blue-700: rgba(146, 152, 162, 1);
+$blue-800: rgba(85, 165, 221, 1);
+$blue-900: rgba(13, 80, 160, 1);
+$gray-600: rgba(227, 230, 234, 1);
+$gray-300: rgba(232, 233, 235, 1);
+$gray-200: rgba(239, 239, 241, 1);
+$gray-400: rgba(229, 232, 236, 1);
+$gray-500: rgba(229, 232, 235, 1);
+$gray-700: rgba(223, 226, 231, 1);
+$gray-800: rgba(222, 225, 229, 1);
+$gray-900: rgba(221, 224, 229, 1);
+$gray-1000: rgba(216, 219, 224, 1);
+$gray-1100: rgba(212, 215, 221, 1);
+$gray-1200: rgba(208, 211, 215, 1);
+$gray-1300: rgba(207, 211, 216, 1);
+$gray-1400: rgba(206, 209, 214, 1);
+$gray-1500: rgba(201, 205, 209, 1);
+$gray-1600: rgba(193, 196, 202, 1);
+$gray-1700: rgba(185, 188, 195, 1);
+$gray-1800: rgba(148, 148, 148, 1);
+
+
+/* Mode 1 */
+/* color */
+$additional-colors-canary-dark: rgb(151 131 31);
+$additional-colors-canary-deep: rgb(179 155 38);
+$additional-colors-canary-intense: rgb(221 193 49);
+$additional-colors-canary-light: rgb(253 237 161);
+$additional-colors-canary-main: rgb(243 212 56);
+$additional-colors-canary-super-intense: rgb(225 182 9);
+$additional-colors-canary-super-light: rgb(254 245 202);
+$additional-colors-flamingo-dark: rgb(100 7 69);
+$additional-colors-flamingo-intense: rgb(180 21 128);
+$additional-colors-flamingo-light: rgb(253 194 224);
+$additional-colors-flamingo-main: rgb(208 28 149);
+$additional-colors-flamingo-super-intense: rgb(152 16 108);
+$additional-colors-flamingo-super-light: rgb(253 214 233);
+$additional-colors-hummingbird-dark: rgb(68 22 100);
+$additional-colors-hummingbird-intense: rgb(129 50 187);
+$additional-colors-hummingbird-light: rgb(217 192 245);
+$additional-colors-hummingbird-main: rgb(147 57 213);
+$additional-colors-hummingbird-super-intense: rgb(108 40 157);
+$additional-colors-hummingbird-super-light: rgb(227 208 248);
+$additional-colors-kingfisher-dark: rgb(40 120 107);
+$additional-colors-kingfisher-intense: rgb(65 181 161);
+$additional-colors-kingfisher-light: rgb(165 251 234);
+$additional-colors-kingfisher-main: rgb(73 202 180);
+$additional-colors-kingfisher-super-intense: rgb(57 160 143);
+$additional-colors-kingfisher-super-light: rgb(220 253 246);
+$additional-colors-mockingbird-dark: rgb(124 63 31);
+$additional-colors-mockingbird-intense: rgb(185 97 51);
+$additional-colors-mockingbird-light: rgb(246 200 179);
+$additional-colors-mockingbird-main: rgb(203 106 56);
+$additional-colors-mockingbird-super-intense: rgb(169 87 46);
+$additional-colors-mockingbird-super-light: rgb(248 217 202);
+$additional-colors-popinjay-dark: rgb(88 112 0);
+$additional-colors-popinjay-intense: rgb(135 173 0);
+$additional-colors-popinjay-light: rgb(216 255 153);
+$additional-colors-popinjay-main: rgb(156 200 0);
+$additional-colors-popinjay-super-intense: rgb(119 153 0);
+$additional-colors-popinjay-super-light: rgb(239 255 215);
+$background-color-grand-totals: rgb(244 244 245);
+$background-color-dark: $gray-200;
+$background-color-focused-state: $bgaccent;
+$background-color-hovered-state: rgb(24 83 141 / 0.4);
+$background-color-main: $white;
+$background-color-main-2: $gray-1000;
+$background-color-required-editor: $additional-colors-canary-super-light;
+$background-color-selected: $gray-600;
+$background-color-totals: rgb(216 219 224 / 0.2);
+$border-color-focused-state: $bgaccent;
+$border-color-hovered-state: rgb(24 83 141 / 0.4);
+$border-color-intense: $gray-1000;
+$border-color-main: $gray-600;
+
+
+$primary-dark: rgb(12 51 90);
+$primary-deep: rgb(16 61 106);
+$primary-intense: rgb(20 72 123);
+$primary-light: rgb(195 220 249);
+$primary-main: $bgaccent;
+$primary-super-dark: rgb(5 31 58);
+$primary-super-intense: rgb(16 61 106);
+$primary-super-light: rgb(216 232 252);
+$primary-state-on-intense-active: rgb(20 72 123 / 0.4);
+$primary-state-on-intense-focused: rgb(20 72 123 / 0.1);
+$primary-state-on-intense-hover: rgb(20 72 123 / 0.1);
+$primary-state-on-intense-selected: rgb(20 72 123 / 0.3);
+$primary-state-on-main-active: rgb(24 83 141 / 0.4);
+$primary-state-on-main-focused: rgb(24 83 141 / 0.1);
+$primary-state-on-main-hover: rgb(24 83 141 / 0.1);
+$primary-state-on-main-selected: rgb(24 83 141 / 0.3);
+$semantic-colors-danger-dark: rgb(128 35 35);
+$semantic-colors-danger-deep: rgb(146 41 41);
+$semantic-colors-danger-intense: rgb(183 54 54);
+$semantic-colors-danger-light: rgb(244 183 178);
+$semantic-colors-danger-main: rgb(201 60 60);
+$semantic-colors-danger-super-dark: rgb(111 29 29);
+$semantic-colors-danger-super-intense: rgb(164 47 47);
+$semantic-colors-danger-super-light: rgb(246 201 197);
+$semantic-colors-danger-state-on-intense-active: rgb(183 54 54 / 0.4);
+$semantic-colors-danger-state-on-intense-focused: rgb(183 54 54 / 0.1);
+$semantic-colors-danger-state-on-intense-hover: rgb(183 54 54 / 0.1);
+$semantic-colors-danger-state-on-intense-selected: rgb(183 54 54 / 0.3);
+$semantic-colors-danger-state-on-main-active: rgb(201 60 60 / 0.4);
+$semantic-colors-danger-state-on-main-focused: rgb(201 60 60 / 0.1);
+$semantic-colors-danger-state-on-main-hover: rgb(201 60 60 / 0.1);
+$semantic-colors-danger-state-on-main-selected: rgb(201 60 60 / 0.3);
+$semantic-colors-success-dark: rgb(7 94 41);
+$semantic-colors-success-deep: rgb(9 107 47);
+$semantic-colors-success-intense: rgb(17 148 68);
+$semantic-colors-success-light: rgb(179 241 190);
+$semantic-colors-success-main: rgb(20 162 75);
+$semantic-colors-success-super-dark: rgb(4 69 28);
+$semantic-colors-success-super-intense: rgb(14 134 61);
+$semantic-colors-success-super-light: rgb(214 251 219);
+$semantic-colors-success-state-on-intense-active: rgb(17 148 68 / 0.4);
+$semantic-colors-success-state-on-intense-focused: rgb(17 148 68 / 0.1);
+$semantic-colors-success-state-on-intense-hover: rgb(17 148 68 / 0.1);
+$semantic-colors-success-state-on-intense-selected: rgb(17 148 68 / 0.3);
+$semantic-colors-success-state-on-main-active: rgb(20 162 75 / 0.4);
+$semantic-colors-success-state-on-main-focused: rgb(20 162 75 / 0.1);
+$semantic-colors-success-state-on-main-hover: rgb(20 162 75 / 0.1);
+$semantic-colors-success-state-on-main-selected: rgb(20 162 75 / 0.3);
+$semantic-colors-warning-dark: rgb(127 79 0);
+$semantic-colors-warning-deep: rgb(158 99 0);
+$semantic-colors-warning-intense: rgb(206 130 1);
+$semantic-colors-warning-light: rgb(248 212 160);
+$semantic-colors-warning-main: rgb(235 154 42);
+$semantic-colors-warning-super-dark: rgb(98 59 0);
+$semantic-colors-warning-super-intense: rgb(174 109 0);
+$semantic-colors-warning-super-light: rgb(251 233 208);
+$semantic-colors-warning-state-on-intense-active: rgb(206 130 1 / 0.4);
+$semantic-colors-warning-state-on-intense-focused: rgb(206 130 1 / 0.1);
+$semantic-colors-warning-state-on-intense-hover: rgb(206 130 1 / 0.1);
+$semantic-colors-warning-state-on-intense-selected: rgb(206 130 1 / 0.3);
+$semantic-colors-warning-state-on-main-active: rgb(235 154 42 / 0.4);
+$semantic-colors-warning-state-on-main-focused: rgb(235 154 42 / 0.1);
+$semantic-colors-warning-state-on-main-hover: rgb(235 154 42 / 0.1);
+$semantic-colors-warning-state-on-main-selected: rgb(240 165 58 / 0.3);
+$text-color-main: $textbody;
+$text-color-placeholders-and-labels: $textlabel;
+$text-color-secondary: $textsecondary;
+
+
+
+
+// Переопределяем переменные Девэкстрима:
+
+// Font family — Базовый фирменный шрифт
+$base-font-family: $fontFamily;
+
+// Font sizes — Базовый размер шрифта в компонентах. На портале базовый шрифт $text-base равен 16px. 
+$generic-base-font-size: $text-medium;
+$texteditor-label-font-size: $text-tiny;
+// $generic-base-line-height: 1;
+// $generic-base-inline-horizontal-padding: 12px;
+
+
+// Accent color — Базовый фирменный цвет, на основе которого сформирована палитра
+$base-accent: $bgaccent;
+
+// Label color — Цвет лейблов
+$base-label-color: $text-color-placeholders-and-labels;
+$texteditor-placeholder-color: $text-color-placeholders-and-labels;
+$texteditor-label-color: $text-color-placeholders-and-labels;
+$header-filter-color:$text-color-placeholders-and-labels;
+$datagrid-base-color: $textmeta;
+
+// Link color — Цвет ссылок
+$base-link-color: $bgaccent;
+
+// Icon color — Цвет иконок
+$base-icon-color: $textmeta;
+
+// Text color — Цвет текста
+$base-text-color: $textbody;
+
+// Background color — Цвет фона
+$base-bg: $background-color-main;
+
+// Border color — Цвет бордюров
+$base-border-color: $border-color-main;
+
+// Border radius — Радиус углов
+$base-border-radius: 8px;
+ 
+// Цвет тени
+$base-shadow-color: $textbody;
+
+// Success color
+$base-success: $semantic-colors-success-main;
+
+// Warning color
+$base-warning: $semantic-colors-warning-main;
+
+// Danger color
+$base-danger: $semantic-colors-danger-main;
+
+// Hover state
+// $base-hover-color: ;
+
+// Hover state background color
+$base-hover-bg: $bgaccent-08;
+
+// Focused state background color
+$base-focus-bg: $bgaccent;
+
+// Invalid widget state - active color
+$base-invalid-color: $semantic-colors-danger-intense;
+
+// Invalid widget state - border color
+$base-invalid-faded-border-color: $semantic-colors-danger-main;
+// $base-header-color: null !default;
+
+
+// $scrollview-pulldown-path: null !default;
+// $base-default: null !default;
+// $base-info: null !default;
+// $screen-text-color: null !default;
+// $base-grid-selected-border-color: null !default;
+// $base-accent-highlight-color: null !default;
+// $base-row-alternation-background: null !default;
+// $base-selected-border: null !default;
+// $base-webwidget-hover-background: null !default;
+// $base-grid-selection-background: null !default;
+// $base-grid-selectedrow-border-color: null !default;
