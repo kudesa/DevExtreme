@@ -323,3 +323,9 @@ $base-invalid-faded-border-color: $semantic-colors-danger-main;
 // $base-webwidget-hover-background: null !default;
 // $base-grid-selection-background: null !default;
 // $base-grid-selectedrow-border-color: null !default;
+
+/* Badge text color — Цвет текста в бейдже */
+$badge-color: $textbody;
+
+/* Badge background color — Цвет фона бейджа */
+$badge-bg: $bgaccent-08;
