@@ -42,3 +42,16 @@
     border-inline-start: $border-inline-start;    
   }
 }
+
+@mixin dx-tabs-border-bottom-mixin() {
+  &::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    left: 12px;
+    z-index: 1;
+    border: 1px solid var(--dx-color-primary);
+  }
+}

@@ -14,16 +14,16 @@
 
 .dx-tabpanel-tabs-position-top {
   .dx-tabpanel-tab {
-    &.dx-tab-selected {
-      @include dx-tabs-border-mixin(
-        null,
-        null,
-        $generic-tabpanel-tab-border-transparent,
-        null,
-      );
+    // &.dx-tab-selected {
+    //   @include dx-tabs-border-mixin(
+    //     null,
+    //     null,
+    //     $generic-tabpanel-tab-border-transparent,
+    //     null,
+    //   );
 
-      margin-bottom: -$generic-tabs-border-width;
-      border-block-end: $generic-tabpanel-tab-border-selected-bottom;
-    }
+    //   margin-bottom: -$generic-tabs-border-width;
+    //   border-block-end: $generic-tabpanel-tab-border-selected-bottom;
+    // }
   }
 }

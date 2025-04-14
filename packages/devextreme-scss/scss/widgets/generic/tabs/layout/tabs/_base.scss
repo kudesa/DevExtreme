@@ -20,13 +20,13 @@
   }
 
   &:not(.dx-tabs-nav-buttons) .dx-tabs-scrollable {
-    @include dx-tabs-after-mixin();
-    @include dx-tabs-border-mixin(
-      $generic-tabs-border,
-      $generic-tabs-border,
-      $generic-tabs-border,
-      $generic-tabs-border,
-    );
+    // @include dx-tabs-after-mixin();
+    // @include dx-tabs-border-mixin(
+    //   $generic-tabs-border,
+    //   $generic-tabs-border,
+    //   $generic-tabs-border,
+    //   $generic-tabs-border,
+    // );
 
     .dx-scrollable-content {
 
@@ -42,25 +42,26 @@
 
 .dx-tabs-wrapper {
   background-color: $tabs-tab-bg;
-  border-block-start: $generic-tabs-border-transparent;
-  border-block-end: $generic-tabs-border-transparent;
+  // border-block-start: $generic-tabs-border-transparent;
+  // border-block-end: $generic-tabs-border-transparent;
+  width: auto;
   
-  @include dx-tabs-after-mixin(true);
-  @include dx-tabs-border-mixin(
-    $generic-tabs-border,
-    $generic-tabs-border,
-    $generic-tabs-border,
-    $generic-tabs-border,
-  );
+  // @include dx-tabs-after-mixin(true);
+  // @include dx-tabs-border-mixin(
+  //   $generic-tabs-border,
+  //   $generic-tabs-border,
+  //   $generic-tabs-border,
+  //   $generic-tabs-border,
+  // );
 }
 
 .dx-tabs-nav-buttons {
   .dx-tabs-wrapper {
-    border-block-start: $generic-tabs-border;
-    border-block-end: $generic-tabs-border;
+    // border-block-start: $generic-tabs-border;
+    // border-block-end: $generic-tabs-border;
 
-    &::after {
-      border: none;
-    }
+    // &::after {
+    //   border: none;
+    // }
   }
 }
