@@ -335,3 +335,17 @@ $generic-badge-min-size: 20px;
 
 /* Label size — Размер лейбла в инпуте */
 // $generic-texteditor-label-size: $text-tiny;
+
+/* Фон таба */
+$tabs-tab-bg: transparent;
+
+/* Цвет текста неактивного таба */
+$tabs-tab-color: $textsecondary;
+
+/* Паддинги в табе */
+$generic-tabs-item-padding: 10px 12px;
+
+/* Цвет фона чекбокса в ридонли */
+$checkbox-readonly-bg: $background-color-dark;
+/* Цвет бордера чекбокса в ридонли */
+$checkbox-readonly-border-color: $border-color-main;
