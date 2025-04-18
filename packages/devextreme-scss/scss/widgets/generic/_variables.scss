@@ -345,7 +345,26 @@ $tabs-tab-color: $textsecondary;
 /* Паддинги в табе */
 $generic-tabs-item-padding: 10px 12px;
 
+/* Цвет фона таба при клике */
+$tabs-tab-active-bg: $bgaccent-08;
+/* Цвет фона таба при наведении */
+$tabs-tab-hover-bg: $bgaccent-04;
+
 /* Цвет фона чекбокса в ридонли */
 $checkbox-readonly-bg: $background-color-dark;
 /* Цвет бордера чекбокса в ридонли */
 $checkbox-readonly-border-color: $border-color-main;
+
+/* Цвет фона кнопки при наведении в дропдаунбоксе */
+$dropdowneditor-button-hover-bg: $bgaccent-04;
+/* Цвет фона активной кнопки в дропдаунбоксе */
+$dropdowneditor-button-active-bg: $bgaccent-12;
+
+/* Цвет фона выделенного пункта в dx-list-item */
+$list-item-selected-bg: $bgaccent-12;
+/* Цвет фона с фокусом выделенного пункта в dx-list-item */
+$list-item-focused-selected-bg: $bgaccent-12;
+/* Цвет фона при клике dx-list-item */
+$list-item-active-bg: $bgaccent-08;
+/* Цвет фона при наведении на выделенный пункт */
+$list-item-selected-hover-bg: $bgaccent-12;
