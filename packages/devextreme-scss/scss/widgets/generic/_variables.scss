@@ -370,3 +370,23 @@ $list-item-active-bg: $bgaccent-08;
 $list-item-selected-hover-bg: $bgaccent-12;
 /* Цвет фона пункта в фокусе */
 $list-focused-bg: $bgaccent-12;
+
+/* Цвет фона кнопки при наведении */
+$button-normal-contained-bg-hover: $gray-500;
+$button-normal-outlined-bg-hover: $gray-500;
+$button-normal-text-bg-hover: $gray-500;
+/* Цвет фона кнопки в фокусе */
+$button-normal-contained-bg-focused: $gray-1000;
+$button-normal-outlined-bg-focused: $gray-1000;
+$button-normal-text-bg-focused: $gray-1000;
+/* Цвет фона активной кнопки */
+$button-normal-contained-bg-active: $gray-1000;
+$button-normal-outlined-bg-active: $gray-1000;
+$button-normal-text-bg-active: $gray-1000;
+/* Цвет фона выделенной кнопки */
+$button-normal-contained-bg-selected: $bgaccent-12;
+$button-normal-outlined-bg-selected: $bgaccent-12;
+$button-normal-text-bg-selected: $bgaccent-12;
+
+/* Цвет фона активной радиокнопки */
+$switch-container-active-bg: $bgaccent;
