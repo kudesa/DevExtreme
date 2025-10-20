@@ -368,6 +368,8 @@ $list-item-focused-selected-bg: $bgaccent-12;
 $list-item-active-bg: $bgaccent-08;
 /* Цвет фона при наведении на выделенный пункт */
 $list-item-selected-hover-bg: $bgaccent-12;
+/* Цвет пункта в фокусе */
+$list-item-focus-color: $textbody;
 /* Цвет фона пункта в фокусе */
 $list-focused-bg: $bgaccent-12;
 
@@ -390,3 +392,7 @@ $button-normal-text-bg-selected: $bgaccent-12;
 
 /* Цвет фона активной радиокнопки */
 $switch-container-active-bg: $bgaccent;
+
+/* Цвет в фокусе  */
+$base-focus-color: $textbody;
+
