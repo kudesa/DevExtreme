@@ -202,17 +202,17 @@
       background: $filemanager-dirs-tree-item-focus-bg;
     }
 
-    & * {
-      color: $filemanager-dirs-tree-item-focus-color;
-    }
+    // & * {
+    //   color: $filemanager-dirs-tree-item-focus-color;
+    // }
   }
 
   .dx-treeview-item-without-checkbox > .dx-treeview-item.dx-filemanager-focused-item {
     background: $filemanager-dirs-tree-item-focus-bg;
 
-    & * {
-      color: $filemanager-dirs-tree-item-focus-color;
-    }
+    // & * {
+    //   color: $filemanager-dirs-tree-item-focus-color;
+    // }
   }
 }
 
