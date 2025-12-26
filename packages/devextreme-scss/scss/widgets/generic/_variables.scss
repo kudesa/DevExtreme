@@ -397,4 +397,12 @@ $switch-container-active-bg: $bgaccent;
 $base-focus-color: $textbody;
 
 // цвет фона активного пункта в файл-менеджере
-$filemanager-dirs-tree-item-focus-bg: $bgaccent-12;
+$filemanager-dirs-tree-item-focus-bg: $bgaccent-08;
+// цвет фона выделенного пункта в файл-менеджере
+$filemanager-file-item-select-bg: $bgaccent-12;
+// цвет фона выделенной папки/файла в файл-менеджере
+$filemanager-file-item-select-focus-bg: $bgaccent-12;
+// цвет текста выделенной папки/файла в файл-менеджере
+$filemanager-file-item-select-color: $textbody;
+// цвет текста выделенной папки/файла в файл-менеджере
+$filemanager-file-item-select-focus-color: $textbody;
