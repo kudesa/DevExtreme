@@ -13,6 +13,7 @@ $pagination-info-paddings: 9px;
   padding-top: $pagination-paddings;
   padding-bottom: $pagination-paddings;
   line-height: normal;
+  font-variant-numeric: lining-nums tabular-nums;
 
   @include user-select(none);
 
@@ -21,25 +22,31 @@ $pagination-info-paddings: 9px;
     float: right;
 
     .dx-page-indexes {
-      display: inline-block;
+      display: inline-flex;
     }
 
     .dx-page {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       cursor: pointer;
-      padding: 7px 8px 8px;
+      min-width: 40px;
+      padding: 10px 0 11px;
+      text-align: center;
       margin-left: 5px;
       margin-right: 1px;
     }
 
     .dx-separator {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
       padding-left: 8px;
       padding-right: 8px;
     }
 
     .dx-info {
-      display: inline-block;
+      display: inline-flex;
+      flex-wrap: wrap;
       margin-right: $pagination-info-paddings;
       opacity: 0.7;
     }
@@ -48,7 +55,7 @@ $pagination-info-paddings: 9px;
       width: 10px;
       height: 20px;
       cursor: pointer;
-      display: inline-block;
+      display: inline-flex;
       vertical-align: top;
       padding: $pagination-paddings - 1px 13px;
       box-sizing: content-box;
@@ -67,6 +74,7 @@ $pagination-info-paddings: 9px;
 
   .dx-page-sizes {
     float: left;
+    display: flex;
 
     .dx-page-size {
       &:first-child,
@@ -74,7 +82,10 @@ $pagination-info-paddings: 9px;
         margin-left: 1px;
       }
 
-      display: inline-block;
+      min-width: 40px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
       cursor: pointer;
       padding-left: 10px;
       padding-right: 9px;
@@ -87,14 +98,23 @@ $pagination-info-paddings: 9px;
 
   .dx-pages,
   .dx-page-sizes {
+    display: flex;
+    height: 100%;
+    min-height: 40px;
+
     .dx-selection {
       cursor: inherit;
       text-shadow: none;
     }
+
+    & > * {
+      align-content: center;
+    }
   }
 
   .dx-light-pages {
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
 
     .dx-page-index {
       width: 40px;
@@ -112,7 +132,8 @@ $pagination-info-paddings: 9px;
     .dx-page-index,
     .dx-info-text,
     .dx-pages-count {
-      display: table-cell;
+      display: inline-flex;
+      align-items: center;
     }
   }
 }
